@@ -1,4 +1,4 @@
-/// @proj : app.ts
+/// @proj : app.js
  
 require('dotenv').config();
 const { Client, Collection } = require('discord.js');
