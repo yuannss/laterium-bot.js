@@ -1,3 +1,5 @@
+/// @proj-slash : stats.js
+
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
