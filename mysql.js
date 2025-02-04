@@ -1,6 +1,6 @@
 /// @proj : mysql.js
 
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const colors = require('colors');
 
 const connection = mysql.createConnection({
