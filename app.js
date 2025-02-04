@@ -147,7 +147,7 @@ client.once('ready', () => {
 });
 
 /// @summary System Auto-Timeout for new member's
-const TIMEOUT_DURATION = 8 * 60 * 1000;
+const TIMEOUT_DURATION = 8 * 60 * 1000; // 8-minutes
 
 client.on('guildMemberAdd', async (member) => {
     try {
