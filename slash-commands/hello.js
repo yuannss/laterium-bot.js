@@ -1,3 +1,5 @@
+/// @proj.slash : hello.js
+
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
