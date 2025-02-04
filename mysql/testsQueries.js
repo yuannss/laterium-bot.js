@@ -1,4 +1,5 @@
-/// @example
+/// @proj.mysql : testsQueries.js
+
 const mMysql = require('../mysql');
 
 module.exports = {
