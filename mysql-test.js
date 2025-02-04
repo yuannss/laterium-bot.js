@@ -1,3 +1,5 @@
+/// @proj : mysql-test.js
+
 const testsQueries = require('./mysql/testsQueries');
 
 (async () => {
