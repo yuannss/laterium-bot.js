@@ -4,6 +4,7 @@ require('dotenv').config();
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
+const colors = require('colors');
 
 const commands = [];
 const commandsPath = path.join(__dirname, 'slash-commands');
@@ -24,7 +25,7 @@ const GUILD_IDS = [
 
 (async () => {
     try {
-        console.log('Registering slash commands...');
+        console.log('Registering slash commands...' .cyan);
 
         for (const guildId of GUILD_IDS) {
             await rest.put(
@@ -32,11 +33,11 @@ const GUILD_IDS = [
                 { body: commands },
             );
 
-            console.log(`Slash commands registered successfully for guild ${guildId}.`);
+            console.log(`Slash commands registered successfully for guild ${guildId}.` .yellow);
         }
 
-        console.log('All slash commands registered successfully.');
+        console.log('All slash commands registered successfully.' .yellow);
     } catch (error) {
-        console.error('Failed to register slash commands:', error);
+        console.error('Failed to register slash commands:' .red, error);
     }
 })();
