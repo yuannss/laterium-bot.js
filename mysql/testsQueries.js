@@ -1,4 +1,4 @@
-// @example
+/// @example
 const mMysql = require('../mysql');
 
 module.exports = {
