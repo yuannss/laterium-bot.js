@@ -1,4 +1,4 @@
-/// @proj-slash : stats.js
+/// @proj.slash : stats.js
 
 const { SlashCommandBuilder } = require('discord.js');
 
