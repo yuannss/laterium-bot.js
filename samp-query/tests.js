@@ -1,3 +1,5 @@
+/// @proj.samp-query : tests.js
+
 // please see https://www.npmjs.com/package/samp-query
 const query = require('samp-query');
 
