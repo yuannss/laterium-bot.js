@@ -1,6 +1,4 @@
-//////////////////////////////////////////////////////////
-//              Laterium Bot Node.js                   //
-////////////////////////////////////////////////////////
+/// @proj : app.ts
  
 require('dotenv').config();
 const { Client, Collection } = require('discord.js');
