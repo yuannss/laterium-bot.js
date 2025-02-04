@@ -1,3 +1,4 @@
+/// @proj : app.ts
 import { Client } from 'discord.js';
 import dotenv from 'dotenv';
 import colors from 'colors';
