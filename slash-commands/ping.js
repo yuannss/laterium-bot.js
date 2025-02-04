@@ -1,3 +1,5 @@
+/// @proj.slash : ping.js
+
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
