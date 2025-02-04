@@ -1,3 +1,4 @@
+/// @modal : Events.InteractionCreate
 const { Events } = require('discord.js');
 
 module.exports = {
