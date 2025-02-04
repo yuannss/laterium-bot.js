@@ -21,7 +21,7 @@
     "@types/node": "^22.13.0",
     "axios": "^1.7.9",
     "colors": "^1.4.0",
-    "discord.js": "^14.13.0",
+    "discord.js": "^14.17.3",
     "dotenv": "^16.3.1",
     "erine": "^2.7.5",
     "mysql": "^2.18.1",
