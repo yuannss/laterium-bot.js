@@ -1,3 +1,5 @@
+/// @proj.slash : blocked.js
+
 const { SlashCommandBuilder, PermissionsBitField } = require('discord.js');
 const connection = require('../mysql');
 
