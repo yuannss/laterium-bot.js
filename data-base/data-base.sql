@@ -36,7 +36,7 @@ CREATE TABLE `tests` (
 COMMIT;
 
 --
--- Save Discord role
+-- Table structure for table `user_roles`
 --
 
 CREATE TABLE user_roles (
@@ -47,7 +47,7 @@ CREATE TABLE user_roles (
 );
 
 --
--- Save blocked
+-- Table structure for table `blocked_channels`
 --
 
 CREATE TABLE blocked_channels (
